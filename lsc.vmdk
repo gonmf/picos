@@ -1,0 +1,17 @@
+# Disk DescriptorFile
+version=1
+CID=fffffffe
+parentCID=ffffffff
+createType="monolithicFlat"
+
+# Extent description
+RW 129024 FLAT "frame-hd63-flat.img" 0
+
+# The Disk Data Base
+# DDB
+
+ddb.virtualHWVersion = "3"
+ddb.geometry.cylinders = "128"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.adapterType = "ide"
